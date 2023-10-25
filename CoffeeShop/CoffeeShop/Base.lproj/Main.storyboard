@@ -184,6 +184,13 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Buy now"/>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eio-mZ-Acr">
+                                <rect key="frame" x="46" y="475" width="301" height="1"/>
+                                <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="wG5-72-iVM"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -202,11 +209,14 @@
                             <constraint firstItem="2Mp-Ez-8hL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="cn9-es-DTy"/>
                             <constraint firstItem="5zh-zx-TlU" firstAttribute="centerY" secondItem="7kj-fS-UHg" secondAttribute="centerY" id="cnV-0K-rrQ"/>
                             <constraint firstItem="JYV-9e-QpM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="dJD-Z0-Y1L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eio-mZ-Acr" secondAttribute="trailing" constant="30" id="eHp-uA-m8P"/>
+                            <constraint firstItem="eio-mZ-Acr" firstAttribute="top" secondItem="gEY-y5-LUt" secondAttribute="bottom" constant="20" id="i52-aO-vZa"/>
                             <constraint firstItem="MxG-iv-mrZ" firstAttribute="top" secondItem="7kj-fS-UHg" secondAttribute="bottom" constant="39" id="jIc-IV-muw"/>
                             <constraint firstItem="Xcy-yd-WkQ" firstAttribute="top" secondItem="JYV-9e-QpM" secondAttribute="bottom" constant="20" id="mVL-Vm-oJm"/>
                             <constraint firstItem="bCy-Ba-Jj8" firstAttribute="centerY" secondItem="7kj-fS-UHg" secondAttribute="centerY" id="p6P-vk-uV4"/>
                             <constraint firstItem="5zh-zx-TlU" firstAttribute="leading" secondItem="bCy-Ba-Jj8" secondAttribute="trailing" constant="12" id="pXP-eU-csa"/>
                             <constraint firstItem="2Mp-Ez-8hL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="s4d-9G-phr"/>
+                            <constraint firstItem="eio-mZ-Acr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="sNB-jo-XxV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JYV-9e-QpM" secondAttribute="trailing" constant="30" id="vQz-t9-vaX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Mp-Ez-8hL" secondAttribute="trailing" constant="30" id="wTH-43-EDR"/>
                             <constraint firstItem="MrZ-0H-c5w" firstAttribute="top" secondItem="bCy-Ba-Jj8" secondAttribute="bottom" constant="33" id="yFE-Rl-222"/>
@@ -235,6 +245,7 @@
                         <outlet property="reviewCount" destination="swo-H3-jBD" id="dzC-Ty-mgL"/>
                         <outlet property="size" destination="mZG-w0-TGH" id="K3v-EW-EGf"/>
                         <outletCollection property="buttonS" destination="7kj-fS-UHg" collectionClass="NSMutableArray" id="dUU-7s-fuK"/>
+                        <outletCollection property="seperator" destination="wG5-72-iVM" collectionClass="NSMutableArray" id="uf1-6P-ESl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

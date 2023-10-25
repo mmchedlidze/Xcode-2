@@ -37,6 +37,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var priceValue: UILabel!
     @IBOutlet weak var buyButton: UIButton!
+    @IBOutlet var seperator: [NSLayoutConstraint]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +46,7 @@ class ViewController: UIViewController {
         details.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
         image.image = UIImage(named: "Coffee")
         image.layer.cornerRadius = 16
+        
         coffeeName.text = coffee.productName
         coffeeName.font = UIFont.systemFont(ofSize: 20, weight: .semibold)
         coffeeSpecification.text = coffee.productSpecification
