@@ -147,9 +147,7 @@
                                 <rect key="frame" x="246" y="600" width="96" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="2dz-5f-xKi"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="96" id="NCS-dh-cuV"/>
                                     <constraint firstAttribute="width" constant="96" id="ZPO-fI-bod"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="lG8-2I-Cxd"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="L">
@@ -175,10 +173,9 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MrZ-0H-c5w">
-                                <rect key="frame" x="146" y="676" width="217" height="62"/>
+                                <rect key="frame" x="113.33333333333333" y="676" width="249.66666666666669" height="62"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="khF-bJ-JU8"/>
-                                    <constraint firstAttribute="width" constant="217" id="vVj-FU-qyx"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -199,7 +196,6 @@
                             <constraint firstItem="icY-Rq-AhY" firstAttribute="top" secondItem="gEY-y5-LUt" secondAttribute="bottom" constant="40" id="FGe-0K-Hm4"/>
                             <constraint firstItem="wmK-0L-Dd2" firstAttribute="top" secondItem="icY-Rq-AhY" secondAttribute="bottom" constant="20" id="FQt-ln-g2P"/>
                             <constraint firstItem="MxG-iv-mrZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="FYa-zl-FAg"/>
-                            <constraint firstItem="7kj-fS-UHg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Ikq-dV-FU1"/>
                             <constraint firstItem="bCy-Ba-Jj8" firstAttribute="leading" secondItem="7kj-fS-UHg" secondAttribute="trailing" constant="12" id="Lth-gW-KGj"/>
                             <constraint firstItem="7kj-fS-UHg" firstAttribute="top" secondItem="wmK-0L-Dd2" secondAttribute="bottom" constant="12" id="Q1p-4G-geR"/>
                             <constraint firstItem="wmK-0L-Dd2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Qq3-FJ-QBK"/>
@@ -210,6 +206,7 @@
                             <constraint firstItem="5zh-zx-TlU" firstAttribute="centerY" secondItem="7kj-fS-UHg" secondAttribute="centerY" id="cnV-0K-rrQ"/>
                             <constraint firstItem="JYV-9e-QpM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="dJD-Z0-Y1L"/>
                             <constraint firstAttribute="trailingMargin" secondItem="eio-mZ-Acr" secondAttribute="trailing" constant="30" id="eHp-uA-m8P"/>
+                            <constraint firstItem="MrZ-0H-c5w" firstAttribute="leading" secondItem="MxG-iv-mrZ" secondAttribute="trailing" constant="42" id="g6Q-7s-DgU"/>
                             <constraint firstItem="eio-mZ-Acr" firstAttribute="top" secondItem="gEY-y5-LUt" secondAttribute="bottom" constant="20" id="i52-aO-vZa"/>
                             <constraint firstItem="MxG-iv-mrZ" firstAttribute="top" secondItem="7kj-fS-UHg" secondAttribute="bottom" constant="39" id="jIc-IV-muw"/>
                             <constraint firstItem="Xcy-yd-WkQ" firstAttribute="top" secondItem="JYV-9e-QpM" secondAttribute="bottom" constant="20" id="mVL-Vm-oJm"/>
